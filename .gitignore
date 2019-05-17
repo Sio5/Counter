@@ -24,7 +24,7 @@ project.xcworkspace
 
 # Android/IntelliJ
 #
-_tests_
+__tests__
 Android
 ios
 build/
