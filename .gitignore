@@ -25,6 +25,8 @@ project.xcworkspace
 # Android/IntelliJ
 #
 __tests__
+.buckconfig
+.flowconfig
 Android
 ios
 build/
@@ -32,8 +34,7 @@ build/
 .gradle
 local.properties
 *.iml
-.buckconfig
-.flowconfig
+
 
 # node.js
 #
