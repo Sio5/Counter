@@ -1,14 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- * @lint-ignore-every XPLATJSCOPYRIGHT1
- */
-/*-------------------------
-Counter App by SIO5
---------------------------*/
 import React from 'react';
 import { Button } from 'react-native-elements';
 import { Text, StyleSheet, View, TouchableNativeFeedback, } from 'react-native';
@@ -22,14 +11,14 @@ export default class App extends React.Component {
 
   render() {
   const currentCounter = this.state.counter;
-  //if fu to scale font size if num is greater as 100
+  //if func to scale font size if num is greater as 100
   if (currentCounter >= 100){
     var fontscale;
     fontscale = 190;
   }else{
     fontscale = 230;
   };
-  //if fu to set limit to 999, to stop count at 999
+  //if func to set limit to 999, to stop count at 999
   if (currentCounter == 999){
     var countlimit;
     countlimit = +0;
